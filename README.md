@@ -2,7 +2,7 @@
 
 A production-safe API performance profiler for Laravel — in the spirit of Telescope/Pulse but focused exclusively on API performance. Low-overhead capture, an admin-gated dashboard, and a REST API for every metric.
 
-- **Package:** `ismail/api-performance-analyzer`
+- **Package:** `ismailelbery/api-performance-analyzer`
 - **Namespace:** `ApiPerformanceAnalyzer\`
 - **Requires:** PHP 8.2+, Laravel 11/12, MySQL or PostgreSQL
 - **Vendor prefix:** `apa`
@@ -10,7 +10,7 @@ A production-safe API performance profiler for Laravel — in the spirit of Tele
 ## Install
 
 ```bash
-composer require ismail/api-performance-analyzer
+composer require ismailelbery/api-performance-analyzer
 
 # Publish config (optional) and run migrations
 php artisan vendor:publish --tag=apa-config

@@ -1,5 +1,5 @@
 {
-    "name": "ismail/api-performance-analyzer",
+    "name": "ismailelbery/api-performance-analyzer",
     "description": "Production-safe API performance profiler for Laravel — slow endpoints, query/N+1 analysis, health scores, alerts and PDF digests.",
     "keywords": ["laravel", "performance", "profiler", "api", "monitoring", "telescope", "pulse"],
     "license": "MIT",

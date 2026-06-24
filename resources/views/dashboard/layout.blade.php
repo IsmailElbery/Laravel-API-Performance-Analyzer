@@ -27,7 +27,7 @@
     </main>
 
     <footer class="max-w-7xl mx-auto px-4 py-6 text-xs text-slate-400">
-        ismail/api-performance-analyzer — data on connection
+        ismailelbery/api-performance-analyzer — data on connection
         <code>{{ config('apa.storage.connection') ?? 'default' }}</code>,
         driver <code>{{ config('apa.storage.driver') }}</code>.
     </footer>
