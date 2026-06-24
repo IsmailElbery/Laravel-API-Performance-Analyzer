@@ -1,0 +1,45 @@
+{
+    "name": "ismail/api-performance-analyzer",
+    "description": "Production-safe API performance profiler for Laravel — slow endpoints, query/N+1 analysis, health scores, alerts and PDF digests.",
+    "keywords": ["laravel", "performance", "profiler", "api", "monitoring", "telescope", "pulse"],
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.0|^12.0",
+        "illuminate/database": "^11.0|^12.0",
+        "illuminate/http": "^11.0|^12.0",
+        "illuminate/console": "^11.0|^12.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.0|^10.0",
+        "phpunit/phpunit": "^10.5|^11.0",
+        "barryvdh/laravel-dompdf": "^3.0"
+    },
+    "suggest": {
+        "barryvdh/laravel-dompdf": "Required for PDF report/digest export (apa:report).",
+        "guzzlehttp/guzzle": "Required for outbound HTTP call timing (HttpCollector)."
+    },
+    "autoload": {
+        "psr-4": {
+            "ApiPerformanceAnalyzer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ApiPerformanceAnalyzer\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ApiPerformanceAnalyzer\\ApaServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
