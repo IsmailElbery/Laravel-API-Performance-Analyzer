@@ -1,12 +1,5 @@
 # API Performance Analyzer
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/ismailelbery/api-performance-analyzer.svg)](https://packagist.org/packages/ismailelbery/api-performance-analyzer)
-[![Tests](https://img.shields.io/github/actions/workflow/status/IsmailElbery/Laravel-API-Performance-Analyzer/tests.yml?branch=master&label=tests)](https://github.com/IsmailElbery/Laravel-API-Performance-Analyzer/actions/workflows/tests.yml)
-[![Total Downloads](https://img.shields.io/packagist/dt/ismailelbery/api-performance-analyzer.svg)](https://packagist.org/packages/ismailelbery/api-performance-analyzer)
-[![PHP Version](https://img.shields.io/badge/php-%5E8.2-blue.svg)](https://www.php.net/)
-[![Laravel](https://img.shields.io/badge/laravel-11%20%7C%2012-red.svg)](https://laravel.com/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-
 A production-safe API performance profiler for Laravel — in the spirit of Telescope/Pulse but focused exclusively on API performance. Low-overhead capture, an admin-gated dashboard, and a REST API for every metric.
 
 - **Package:** `ismailelbery/api-performance-analyzer`
